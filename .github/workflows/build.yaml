@@ -1,4 +1,4 @@
-name: Maven Nuild
+name: Maven Build
 run-name: ${{ github.actor }} | create package
 
 on:
