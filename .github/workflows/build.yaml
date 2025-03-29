@@ -27,6 +27,11 @@ jobs:
           
       - name: build package
         run: mvn clean install -DskipTests
+      - name: upload artifact
+        uses: actions/upload-artifacts@v3
+        with:
+          name: app.jar
+          path: target/*.jar
       
       
   
